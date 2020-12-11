@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad_bg"
+    android:padding="12dp">
+
+    <EditText
+        android:layout_margin="8dp"
+        android:textColor="#ffffff"
+        android:hint="Part repaired"
+        android:id="@+id/part_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:textColor="#ffffff"
+        android:hint="Name of engineer"
+        android:id="@+id/engg_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:textColor="#ffffff"
+        android:hint="Contact number"
+        android:id="@+id/engg_contact_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <Button
+        android:background="@drawable/et_bg_button"
+        android:padding="8dp"
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="add"/>
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recycler_view"
+    tools:context=".EquipmentRecordList"/>
+
+</LinearLayout>

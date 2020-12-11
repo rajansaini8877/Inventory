@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/grad_bg"
+    tools:context=".EquipmentDetailsActivity">
+
+    <LinearLayout
+        android:padding="18dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/et_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serial Number"/>
+
+        <View style="@style/Divider"/>
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_gravity="right"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/serial_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="18dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/et_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date of Installation"/>
+
+        <View style="@style/Divider"/>
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_gravity="right"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/doi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="18dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/et_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"/>
+
+        <View style="@style/Divider"/>
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_gravity="right"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="18dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/et_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In Warranty?"/>
+
+        <View style="@style/Divider"/>
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_gravity="right"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/warranty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="8dp"
+        android:background="@drawable/et_bg_button"
+        android:fontFamily="sans-serif"
+        android:padding="12dp"
+        android:id="@+id/history_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service history"/>
+
+</LinearLayout>
